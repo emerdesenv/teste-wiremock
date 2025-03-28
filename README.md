@@ -15,3 +15,9 @@
 ## Rodando o WireMock
 
 * No seu terminal execute o seguinte comando: **npm run wiremock**
+
+## Testando nossa API
+
+* Podemos utilizar o **Postman** ou o **Insomnia**, basta abrir a aplicação e colocar um endpoint de sua escolha, segue abaixo:
+
+* **GET** - http://localhost:8080/api/carros (Irá retornar todos os carros)
