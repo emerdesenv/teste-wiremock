@@ -1,0 +1,15 @@
+{
+    "name": "wiremock",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "wiremock": "npx wiremock"
+    },
+    "keywords": [],
+    "author": "Emerson Amancio",
+    "license": "ISC",
+    "devDependencies": {
+        "wiremock": "^3.12.1"
+    }
+}

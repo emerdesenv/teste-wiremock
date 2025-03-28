@@ -1,2 +1,17 @@
-# teste-wiremock-
-Testes que simulam uma API
+## Temas Abordados neste Projeto WireMock
+
+* Criação dos endpoints da nossa API
+
+## Primeios passos após o clone do Projeto
+
+* Realizar o clone do projeto na sua máquina e colocar o mesmo dentro de uma pasta chamada **projetos**
+* Abrir o projeto no **Visual Studio Code** ou algum editdor de sua preferência
+* No terminal rodar o comando: **npm install**
+
+## Documentações de Referências
+
+* **WireMock** - https://wiremock.org/docs/
+
+## Rodando o WireMock
+
+* No seu terminal execute o seguinte comando: **npm run wiremock**
