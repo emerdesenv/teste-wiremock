@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "DELETE",
+        "urlPattern": "/api/carros/(\\d+)"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "mensagem": "Carro removido com sucesso!"
+        }
+    }
+}

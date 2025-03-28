@@ -1,0 +1,26 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/api/carros",
+        "headers": {
+            "Content-Type": {
+                "equalTo": "application/json"
+            }
+        },
+        "bodyPatterns": [
+            {
+                "matchesJsonSchema": "{ \"type\": \"object\", \"properties\": { \"marca\": { \"type\": \"string\" }, \"modelo\": { \"type\": \"string\" }, \"ano\": { \"type\": \"integer\" } }, \"required\": [\"marca\", \"modelo\", \"ano\"] }"
+            }
+        ]
+    },
+    "response": {
+        "status": 201,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "id": 101,
+            "mensagem": "Carro cadastrado com sucesso!"
+        }
+    }
+}

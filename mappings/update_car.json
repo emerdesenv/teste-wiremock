@@ -1,0 +1,25 @@
+{
+    "request": {
+        "method": "PUT",
+        "urlPattern": "/api/carros/(\\d+)",
+        "headers": {
+            "Content-Type": {
+                "equalTo": "application/json"
+            }
+        },
+        "bodyPatterns": [
+            {
+                "matchesJsonSchema": "{ \"type\": \"object\", \"properties\": { \"marca\": { \"type\": \"string\" }, \"modelo\": { \"type\": \"string\" }, \"ano\": { \"type\": \"integer\" } }, \"required\": [\"marca\", \"modelo\", \"ano\"] }"
+            }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "mensagem": "Carro atualizado com sucesso!"
+        }
+    }
+}
